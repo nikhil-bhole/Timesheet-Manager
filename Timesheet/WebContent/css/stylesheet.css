@@ -1,0 +1,133 @@
+.body{
+	margin: 0px;
+	padding:0px;
+}
+.auth-form-body {
+    padding: 20px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #d8dee2;
+    border-top: 1px solid #d8dee2;
+    border-radius: 5px;
+    width:305px;
+    height:235px;
+    display: block;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.create-account-callout {
+    width:305px;
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #d8dee2;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-left: auto;
+  	margin-right: auto;
+}
+
+.table th {
+   text-align: center;   
+}
+
+#header{
+	margin-top:150px;
+}
+#form-log-time.container-fluid{
+	display: block;
+    margin-top:auto;
+    margin-left: auto;
+    margin-right: auto;
+	height: 130px;
+	
+}
+
+#displaytimesheet.container-fluid{
+	margin-top:20px;
+}
+
+
+#navigation{
+	  background-color: #0052CC;
+}
+
+#time{
+	
+	margin-top:65px;
+	height:50px;
+}
+
+.navbar-custom {
+    background-color:#403294;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #33aa33;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#33aa33;
+}
+
+#reg-new-user.container-fluid{
+	margin-top:20px;
+    margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+}
+
+
+.reg-form-body {
+    padding: 20px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #d8dee2;
+    border-top: 1px solid #d8dee2;
+    border-radius: 5px;
+    width:500px;
+    height:700px;
+    display: block;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#to-from .container-fluid {
+	margin-top:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

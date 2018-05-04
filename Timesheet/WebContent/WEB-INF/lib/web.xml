@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  
+  <display-name>TestProject</display-name>
+
+  
+
+<servlet>  
+<servlet-name>TestServlet</servlet-name>  
+<servlet-class>servlets.TestServlet</servlet-class>  
+</servlet>  
+
+<servlet>  
+<servlet-name>LogoutController</servlet-name>  
+<servlet-class>servlets.LogoutController</servlet-class>  
+</servlet> 
+
+<servlet>  
+<servlet-name>Login</servlet-name>  
+<servlet-class>servlets.Login</servlet-class>  
+</servlet>  
+
+<servlet>  
+<servlet-name>RegisterUser</servlet-name>  
+<servlet-class>servlets.RegisterUserServlet</servlet-class>  
+</servlet> 
+
+<servlet>  
+<servlet-name>ExportServlet</servlet-name>  
+<servlet-class>servlets.ExportServlet</servlet-class>  
+</servlet> 
+
+
+<servlet>  
+<servlet-name>DeleteServlet</servlet-name>  
+<servlet-class>servlets.DeleteServlet</servlet-class>  
+</servlet> 
+
+<welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+
