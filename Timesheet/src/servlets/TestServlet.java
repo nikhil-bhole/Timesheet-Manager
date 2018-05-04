@@ -53,8 +53,8 @@ public class TestServlet extends HttpServlet {
 		String userID = getUserID(loggedinuser);
 		System.out.println("USER ID" + userID);
 		String dayStartTime=null;
-	    String lunchStartTime=null;
-	    String lunchEndTime=null;
+	    	String lunchStartTime=null;
+	    	String lunchEndTime=null;
 		String breakStartTime=null;
 		String breakEndTime=null;
 		String dayEndTime=null;
@@ -65,11 +65,11 @@ public class TestServlet extends HttpServlet {
 		
 		RecordDao rc = new RecordDao();
 		response.setContentType("text/html");  
-        PrintWriter out = response.getWriter();
-        RecordBean recordBean = new RecordBean();
-        String date = request.getParameter("selectDate");
+        	PrintWriter out = response.getWriter();
+        	RecordBean recordBean = new RecordBean();
+        	String date = request.getParameter("selectDate");
         
-        String selectType = request.getParameter("selectType");
+       		String selectType = request.getParameter("selectType");
 	   	
         if(selectType.equals("starttime")){
 	   		dayStartTime = request.getParameter("txtTime");
@@ -105,15 +105,15 @@ public class TestServlet extends HttpServlet {
 	   	recordBean.setID(userID);
 	   	recordBean.setDate(date);
 	   	recordBean.setTdayStart(dayStartTime);
-        recordBean.setTlunchStart(lunchStartTime);
-        recordBean.setTlunchend(lunchEndTime);
-        recordBean.setTbreakStart(breakStartTime);
-        recordBean.setTbreakEnd(breakEndTime);
-        recordBean.settDayEnd(dayEndTime);
-        recordBean.setCasualleave(casualleave);
-        recordBean.setSickleave(sickleave);
-        recordBean.setHolidays(holidays);
-        recordBean.setLeavewithoutpay(leavewithoutpay);
+        	recordBean.setTlunchStart(lunchStartTime);
+        	recordBean.setTlunchend(lunchEndTime);
+        	recordBean.setTbreakStart(breakStartTime);
+        	recordBean.setTbreakEnd(breakEndTime);
+        	recordBean.settDayEnd(dayEndTime);
+        	recordBean.setCasualleave(casualleave);
+        	recordBean.setSickleave(sickleave);
+        	recordBean.setHolidays(holidays);
+        	recordBean.setLeavewithoutpay(leavewithoutpay);
         
         String userRegistered = rc.addRecord(recordBean);
         
